@@ -4,7 +4,7 @@
 
 using namespace std;
 using json = nlohmann::json;
-using boost::multiprecision::cpp_int;
+using boost::multiprecision::cpp_int; 
 
 // Convert base-N string to decimal (cpp_int for arbitrary precision)
 cpp_int decodeBaseString(const string &s, int base) {
